@@ -102,6 +102,10 @@ body {
   color: #fff;
 }
 
+.main header nav .nav-collapse li:hover a{
+  color: #3F87DB !important;
+}
+
 .main header .count{
   font-size: 18px;
   margin-bottom: 5px;
@@ -109,6 +113,15 @@ body {
 
 .main header .type{
   font-size: 15px;
+}
+
+.main header li.stats{
+  cursor: pointer;
+}
+
+.main header li.stats:hover .count,
+.main header li.stats:hover .type{
+  color: #3F87DB;
 }
 
 .main header .pro{
