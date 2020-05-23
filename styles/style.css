@@ -1,0 +1,162 @@
+body {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: Raleway;
+  color: #95989A;
+  line-height: 22px;
+}
+
+.btn-primary{
+  background-color: #3F87DB;
+}
+
+.bg {
+  background-image: url("../images/Rectangle.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;filter: blur(30px);
+  -webkit-filter: blur(30px);
+}
+
+.main{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  height: 90%;
+  max-width: 532px;
+  border-radius: 1rem;
+}
+
+.main header{
+  height: 52%;
+  background-image: url("../images/cardbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main header nav svg{
+  fill: #fff;
+}
+
+.main header nav svg:hover{
+  fill: #3F87DB;
+}
+
+.main header nav h3{
+  font-size: 30px;
+}
+
+.main header nav .navTrigger{
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+}
+
+.main header nav .navTrigger:hover i{
+  background-color: #3F87DB;
+}
+
+.main header nav .navTrigger i {
+    background-color: #fff;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin-bottom: 4px;
+}
+
+.main header nav .nav-collapse{
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 60%;
+  right: 0;
+  top: 0;
+  background: #0c0c0c;
+  z-index: 1;
+}
+
+.main header nav .nav-collapse li{
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.main header nav .nav-collapse li a{
+  color: #fff;
+}
+
+.main header .count{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.main header .type{
+  font-size: 15px;
+}
+
+.main header .pro{
+  position: absolute;
+  height: 76px;
+  width: 76px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 15px;
+}
+
+.main .content{
+  display: flex;
+  flex-grow: 1;
+  width: 72%;
+  margin: auto;
+}
+
+.main .content h2{
+  font-size: 20px;
+}
+
+.main .content h6{
+  font-size: 15px;
+}
+
+.main .content hr{
+  width: 10%;
+  margin: auto;
+}
+
+.main .content p{
+  font-size: 20px;
+}
+
+.main .content .follow{
+  font-size: 15px;
+  font-weight: bold;
+  width: 53%;
+  margin: auto;
+  border-radius: 24px;
+}
+
+@media (max-width: 767.98px) {
+  .main{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
